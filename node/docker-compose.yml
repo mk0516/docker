@@ -13,6 +13,6 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./react:/src
+      - ./app:/src
     working_dir: /src
     tty: true
